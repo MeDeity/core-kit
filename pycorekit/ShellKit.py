@@ -3,9 +3,6 @@ import os
 import time
 import paramiko
 from datetime import date
-from multiprocessing import Process
-
-import multiprocessing
 
 
 class ShellKit(object):
