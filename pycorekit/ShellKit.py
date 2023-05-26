@@ -8,7 +8,7 @@ from datetime import date
 class ShellKit(object):
 
     # 初始化构造函数（主机，用户名，密码，端口，默认22）
-    def __init__(self, hostname='192.168.70.30', username='hasee', password='123456', port=22, timeout=300):
+    def __init__(self, hostname, username, password='123456', port=22, timeout=300):
         self.hostname = hostname
         self.port = port
         self.username = username

@@ -17,6 +17,6 @@ data.connect()
 cmds = ["ls","ls -al"]
 #模拟调用 
 # autoExit 执行完成后是否自动退出
-# autoExitTime 自动退出的时间,默认是30秒 autoExit 开启
+# autoExitTime 自动退出的时间,默认是30秒 autoExit 开启才会生效
 data.simulate(cmds,autoExit=True,autoExitTime=1)
 ```
